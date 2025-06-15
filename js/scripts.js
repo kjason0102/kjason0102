@@ -9,7 +9,7 @@
 
 window.addEventListener('DOMContentLoaded', event => {
 
-    function updateWorldClocks() {
+    function WorldClock() {
     const koreaTime = new Date().toLocaleString("en-US", { timeZone: "Asia/Seoul", hour12: false });
     const usaTime = new Date().toLocaleString("en-US", { timeZone: "America/New_York", hour12: false });
     const europeTime = new Date().toLocaleString("en-US", { timeZone: "Europe/London", hour12: false });
@@ -18,8 +18,8 @@ window.addEventListener('DOMContentLoaded', event => {
     document.getElementById("usa-time").innerText = "USA (New York): " + usaTime;
     document.getElementById("europe-time").innerText = "Europe (London): " + europeTime;
     }
-    updateWorldClocks();
-    setInterval(updateWorldClocks, 1000);
+    WorldClock();
+    setInterval(WorldClock, 1000);
 
     // Navbar shrink function
     var navbarShrink = function () {

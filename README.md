@@ -12,6 +12,7 @@ PORTFOLIO : 아직 직접 작업에 참여해본 것이 없기에 프로그래�
 
 ABOUT : 간단한 일대기를 적어보았고 희망직무를 포함한 미래 계획도 적어보았습니다.
 
+세계시간 : 수업시간때 배웠던 것을 활용하여 
+
 활용한 테마 : startbootstrap-agency 테마 URL : https://startbootstrap.com/theme/agency
 
-#시간 표시(세계시간, 한국시간)
